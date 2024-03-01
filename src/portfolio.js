@@ -55,9 +55,7 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
     ),
     emoji("⚡ Progressive Web Applications New Tech uses"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/Axios"
-    )
+    emoji("⚡ Integration of third party services such as Firebase/Axios")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -103,7 +101,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
+    }
     // {
     //   skillName: "python",
     //   fontAwesomeClassname: "fab fa-python"
@@ -125,7 +123,7 @@ const educationInfo = {
       schoolName: "Southern University of Bangladesh",
       logo: require("./assets/images/southern.png"),
       subHeader: "Bachelor of Science in Computer Science Engineering",
-      duration: "January 2021 - April 2024",
+      duration: "January 2021 - April 2024"
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -136,7 +134,7 @@ const educationInfo = {
       schoolName: "Bangladesh Sweden Polytechnlic Institute",
       logo: require("./assets/images/bspi.png"),
       subHeader: "Diploma in Computer Science",
-      duration: "September 2014 - April 2018",
+      duration: "September 2014 - April 2018"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -238,7 +236,8 @@ const bigProjects = {
     {
       image: require("./assets/images/project3.webp"),
       projectName: "Delisioza",
-      projectDesc: "A Resturants have talendted cheif they server top meals,courses also",
+      projectDesc:
+        "A Resturants have talendted cheif they server top meals,courses also",
       footerLink: [
         {
           name: "Visit Website",
@@ -251,8 +250,7 @@ const bigProjects = {
         {
           name: "Server Side code",
           url: "https://github.com/irfanurislam/cheif-hunt-server"
-        },
-
+        }
       ]
     },
     {
@@ -267,9 +265,64 @@ const bigProjects = {
         {
           name: "Code  side ",
           url: "https://github.com/irfanurislam/carrer-hub"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/college.gif"),
+      projectName: "LearnPortal",
+      projectDesc: "A Web site for College /university Admission apply",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://collegeauth.web.app/"
         },
-        
-
+        {
+          name: "Code side ",
+          url: "https://github.com/irfanurislam/college-cleint"
+        },
+        {
+          name: "Server side ",
+          url: "https://github.com/irfanurislam/college-server"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/music.gif"),
+      projectName: "Music Mentor",
+      projectDesc: "A Full Stack Web Site Music Mentor",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://dimple-firebase-d7776.firebaseapp.com/"
+        },
+        {
+          name: "Code side ",
+          url: "https://github.com/irfanurislam/musicmentor-client"
+        },
+        {
+          name: "Server side ",
+          url: "https://github.com/irfanurislam/musicmentor-server"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/tripsure.gif"),
+      projectName: "TripSure",
+      projectDesc: "A Full Stack tour site implement (team work)  ",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://tripsure-client.web.app/"
+        },
+        {
+          name: "Code side ",
+          url: "https://github.com/Sayemsaadat0/tripsure-client"
+        },
+        {
+          name: "Server side ",
+          url: "https://github.com/Sayemsaadat0/tripsure-server"
+        }
       ]
     }
   ],
@@ -365,9 +418,7 @@ const blogSection = {
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY  KNOWLEDGE HOW GET I RESOURCE 😅"
-  ),
+  subtitle: emoji("I LOVE TO SHARE MY  KNOWLEDGE HOW GET I RESOURCE 😅"),
 
   talks: [
     {
@@ -405,10 +456,10 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
