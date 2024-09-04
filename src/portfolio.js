@@ -70,12 +70,16 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    // {
+    //   skillName: "sass",
+    //   fontAwesomeClassname: "fab fa-sass"
+    // },
     {
       skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "TypeScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
@@ -94,10 +98,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
+    {
+      skillName: "Redux",
+      fontAwesomeClassname: "fab fa-redux"
+    },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
@@ -322,6 +326,25 @@ const bigProjects = {
         {
           name: "Server side ",
           url: "https://github.com/Sayemsaadat0/tripsure-server"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/greenStack.gif"),
+      projectName: "GreenStack",
+      projectDesc: "A Full Stack ECommerce site implement (we are)  ",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://green-stack.vercel.app/"
+        },
+        {
+          name: "Code side ",
+          url: "https://github.com/Misbah01798/green-stack"
+        },
+        {
+          name: "Server side ",
+          url: "https://github.com/Misbah01798/server-greenstack"
         }
       ]
     }
